@@ -19,11 +19,12 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Specs
-
-*
-*
-*
-*
+Behavior | Input | Output
+-------- | ----- | ------
+A year is not a leap year if it is not divisible by 4 | 1993 | false
+A year is a leap year if it is divisible by 4 | 2004 | true
+A year is not a leap year if it is divisble by 100 | 1900 | false
+A year is a leap year if it is divisible by 400 | 2000 | true
 
 ## Known Bugs
 
